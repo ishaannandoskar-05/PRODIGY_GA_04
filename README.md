@@ -39,8 +39,8 @@ loss** supplies the sharp, high-frequency detail L1 can't. The two losses are
 complementary, which is the core insight of the paper.
 
 This completes a tour of three generative paradigms across these tasks:
-autoregressive next-token prediction ([`PRODIGY_GA_01`](../PRODIGY_GA_01)),
-iterative denoising ([`PRODIGY_GA_02`](../PRODIGY_GA_02)), and now
+autoregressive next-token prediction ([`PRODIGY_GA_01`](https://github.com/ishaannandoskar-05/PRODIGY_GA_01)),
+iterative denoising ([`PRODIGY_GA_02`](https://github.com/ishaannandoskar-05/PRODIGY_GA_01)), and now
 **adversarial training** — two networks improving by competing, with no
 explicit likelihood being modelled at all.
 
