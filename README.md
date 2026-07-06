@@ -56,13 +56,13 @@ kicks in.
 
 | Epoch 1 | Epoch 20 | Epoch 50 |
 |---|---|---|
-| ![e1](outputs/progress/epoch_001.png) | ![e20](outputs/progress/epoch_020.png) | ![e50](outputs/progress/epoch_050.png) |
+| ![e1](pix2pix_outputs/progress/epoch_001.png) | ![e20](pix2pix_outputs/progress/epoch_020.png) | ![e50](pix2pix_outputs/progress/epoch_050.png) |
 
 ### Held-Out Test Results
 Final translations on unseen test facades: `outputs/test_results/`
 
-![test1](outputs/test_results/batch_1.png)
-![test2](outputs/test_results/batch_2.png)
+![test1](pix2pix_outputs/test_results/batch_1.png)
+![test2](pix2pix_outputs/test_results/batch_2.png)
 
 The trained generator weights are saved to `outputs/generator.pth`.
 
